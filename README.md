@@ -21,7 +21,12 @@ For example,
     done
 
 Patch in the example check to see if there exists MS_SPLITTER_ID defined in `MSFilterId`.
-If not, it then locate the line `} MSFilterId;`. Then append `,` to the line prior to that.
+
+If not, it then locates the line `} MSFilterId;` as the current line.
+
+Then appends `,` to the line prior the current line.
+
 Next, the patch inserts a new line containing to "MS_SPLITTER_ID" prefixed with a TAB just before the current line.
+
 Then saves this change as a `Git` commit and automatically generate a `diff` file for us.
 The `name` command will be used as the commit's message, and the diff's filename.
