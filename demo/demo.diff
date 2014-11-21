@@ -1,0 +1,14 @@
+diff --git a/include/mediastreamer2/allfilters.h b/include/mediastreamer2/allfilters.h
+index 2dfb328..2f94ab7 100755
+--- a/include/mediastreamer2/allfilters.h
++++ b/include/mediastreamer2/allfilters.h
+@@ -143,7 +143,8 @@ typedef enum MSFilterId{
+	MS_QSA_READ_ID,
+	MS_QSA_WRITE_ID,
+	MS_MKV_RECORDER_ID,
+-	MS_MKV_PLAYER_ID
++	MS_MKV_PLAYER_ID,
++	MS_SPLITTER_ID
+ } MSFilterId;
+
+
