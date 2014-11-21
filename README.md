@@ -1,7 +1,7 @@
 Simple Patch Toolkit
 ====================
 
-SPT or Simple Patch Toolkit is a tool for writing a patch with a domain specific language (DSL).
+SPT or Simple Patch Toolkit is a tool for writing a robust patch with its Domain Specific Language (DSL).
 With the SPT language, we can easily patch a text file with search and replace syntax.
 This allows us to write robust patches to support multiple-version and frequently-evolved source codes.
 
